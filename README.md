@@ -1,80 +1,86 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+# React + Vite + TypeScript Template (react-vite-ui)
 
-# React Tailwindcss Boilerplate build with Vite
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Dan5py/react-vite-ui/blob/main/LICENSE)
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+A React + Vite template powered by shadcn/ui.
 
-## What is inside?
+## 🎉 Features
 
-This project uses many tools like:
+- **React** - A JavaScript library for building user interfaces.
+- **Vite** - A fast, opinionated frontend build tool.
+- **TypeScript** - A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS** - A utility-first CSS framework.
+- **Tailwind Prettier Plugin** - A Prettier plugin for formatting Tailwind CSS classes.
+- **ESLint** - A pluggable linting utility for JavaScript and TypeScript.
+- **PostCSS** - A tool for transforming CSS with JavaScript.
+- **Autoprefixer** - A PostCSS plugin to parse CSS and add vendor prefixes.
+- **shadcn/ui** - Beautifully designed components that you can copy and paste into your apps.
 
-- [Vite](https://vitejs.dev)
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Vitest](https://vitest.dev)
-- [Testing Library](https://testing-library.com)
-- [Tailwindcss](https://tailwindcss.com)
-- [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
+## ⚙️ Prerequisites
 
-## Getting Started
+Make sure you have the following installed on your development machine:
 
-### Install
+- Node.js (version 16 or above)
+- pnpm (package manager)
 
-Create the project.
+## 🚀 Getting Started
 
-```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+Follow these steps to get started with the react-vite-ui template:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/dan5py/react-vite-ui.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd react-vite-ui
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   pnpm dev
+   ```
+
+## 📜 Available Scripts
+
+- pnpm dev - Starts the development server.
+- pnpm build - Builds the production-ready code.
+- pnpm lint - Runs ESLint to analyze and lint the code.
+- pnpm preview - Starts the Vite development server in preview mode.
+
+## 📂 Project Structure
+
+The project structure follows a standard React application layout:
+
+```python
+react-vite-ui/
+  ├── node_modules/      # Project dependencies
+  ├── public/            # Public assets
+  ├── src/               # Application source code
+  │   ├── components/    # React components
+  │   │   └── ui/        # shadc/ui components
+  │   ├── styles/        # CSS stylesheets
+  │   ├── lib/           # Utility functions
+  │   ├── App.tsx        # Application entry point
+  │   └── index.tsx      # Main rendering file
+  ├── .eslintrc.json     # ESLint configuration
+  ├── index.html         # HTML entry point
+  ├── postcss.config.js  # PostCSS configuration
+  ├── tailwind.config.js # Tailwind CSS configuration
+  ├── tsconfig.json      # TypeScript configuration
+  └── vite.config.ts     # Vite configuration
 ```
 
-Access the project directory.
+## 📄 License
 
-```bash
-cd my-app
-```
-
-Install dependencies.
-
-```bash
-pnpm install
-```
-
-Serve with hot reload at <http://localhost:5173>.
-
-```bash
-pnpm run dev
-```
-
-### Lint
-
-```bash
-pnpm run lint
-```
-
-### Typecheck
-
-```bash
-pnpm run typecheck
-```
-
-### Build
-
-```bash
-pnpm run build
-```
-
-### Test
-
-```bash
-pnpm run test
-```
-
-View and interact with your tests via UI.
-
-```bash
-pnpm run test:ui
-```
-
-## License
-
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.

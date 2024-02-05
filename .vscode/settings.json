@@ -2,7 +2,14 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "files.associations": {
-    "*.css": "tailwindcss"
-  }
+  "nuxt.isNuxtApp": false,
+  "cSpell.words": [
+    "classname",
+    "clsx",
+    "headlessui",
+    "ianvs",
+    "lucide",
+    "testid",
+    "typecheck"
+  ]
 }
