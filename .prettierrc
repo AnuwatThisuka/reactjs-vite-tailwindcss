@@ -1,5 +1,18 @@
 {
-  "trailingComma": "none",
-  "semi": false,
-  "singleQuote": true
+  "semi": true,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "options": {
+        "plugins": [
+          "@ianvs/prettier-plugin-sort-imports",
+          "prettier-plugin-tailwindcss"
+        ]
+      }
+    }
+  ]
 }

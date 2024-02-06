@@ -2,7 +2,17 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "files.associations": {
-    "*.css": "tailwindcss"
-  }
+  "nuxt.isNuxtApp": false,
+  "cSpell.words": [
+    "blueprintjs",
+    "classname",
+    "clsx",
+    "datepicker",
+    "headlessui",
+    "ianvs",
+    "lucide",
+    "popperjs",
+    "testid",
+    "typecheck"
+  ]
 }
