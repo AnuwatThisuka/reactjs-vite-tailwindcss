@@ -4,11 +4,14 @@
   },
   "nuxt.isNuxtApp": false,
   "cSpell.words": [
+    "blueprintjs",
     "classname",
     "clsx",
+    "datepicker",
     "headlessui",
     "ianvs",
     "lucide",
+    "popperjs",
     "testid",
     "typecheck"
   ]
